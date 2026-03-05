@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import { LanguageProvider } from '@/context/LanguageContext';
-import Header from '@/sections/Header';
-import Hero from '@/sections/Hero';
-import Featured from '@/sections/Featured';
-import Gallery from '@/sections/Gallery';
-import About from '@/sections/About';
-import Services from '@/sections/Services';
-import Contact from '@/sections/Contact';
-import Footer from '@/sections/Footer';
-import ArtworkDetail from '@/sections/ArtworkDetail';
+import Header from '@/sections/Header.tsx';
+import Hero from '@/sections/Hero.tsx';
+import Featured from '@/sections/Featured.tsx';
+import Gallery from '@/sections/Gallery.tsx';
+import About from '@/sections/About.tsx';
+import Services from '@/sections/Services.tsx';
+import Contact from '@/sections/Contact.tsx';
+import Footer from '@/sections/Footer.tsx';
+import ArtworkDetail from '@/sections/ArtworkDetail.tsx';
 
 function App() {
   const [selectedArtwork, setSelectedArtwork] = useState<string | null>(null);
